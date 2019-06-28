@@ -451,7 +451,7 @@ htm += detailData[pageId][j];
 }
 top.contents.details.document.getElementById('id_detail').innerHTML = htm;
 htm = "<center><table border='0' cellpadding='3' style='font-size: 10pt;'>";
-htm += "<tr>";
+ htm += "<tr>";
 htm += "<td class='menu2' style='min-width:40px;width:40px;'>Turn</td>";
 htm += "<td class='menu2' style='min-width:150px;width:150px;'>Skill</td>";
 htm += "<td class='menu2' style='min-width:50px;width:50px;'>BP</td>";
