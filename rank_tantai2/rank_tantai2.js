@@ -63,5 +63,6 @@ for (j = 0; j < resultData[pageId].length; j++) {
 if (j % 6 == 0) { htm += "<tr><td class='menu'>" + resultData[pageId][j] + "</td>" }
 else if (j % 6 == 5) { htm += "<td class='menu3'>" + resultData[pageId][j] + "</td></tr>" }
 else { htm += "<td class='menu'>" + resultData[pageId][j] + "</td>" }
+}
 top.contents.results.document.getElementById('id_result').innerHTML = htm;
 }
