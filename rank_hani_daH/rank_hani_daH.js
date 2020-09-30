@@ -153,7 +153,7 @@ htm += "<td class='menu2' style='min-width:170px;width:170px;'>Skill</td>";
 htm += "<td class='menu2' style='min-width:50px;width:50px;'>BP</td>";
 htm += "<td class='menu2' style='min-width:55px;width:55px;'>Damage</td>";
 htm += "<td class='menu2' style='min-width:55px;width:55px;'>BP変化</td>";
-htm += "<td class='menu2' style='min-width:600px;width:600px;'>備考</td>";
+htm += "<td class='menu2' style='min-width:1000px;width:1000px;'>備考</td>";
 htm += "</tr>";
 for (j = 0; j < resultData[pageId].length; j++) {
 if (j % 6 == 0) { htm += "<tr><td class='menu'>" + resultData[pageId][j] + "</td>" }
